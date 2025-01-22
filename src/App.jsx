@@ -1,7 +1,8 @@
 // src/App.jsx
 import React from "react";
-import { meny } from "./data"; // Importer meny-dataene
-import Menu from "./Menu"; // Importer Menu-komponenten
+import { meny } from "./data";
+import Menu from "./Menu";
+import "./global.css";
 
 function App() {
   return (
