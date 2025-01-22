@@ -1,0 +1,27 @@
+.dishCard {
+  background-color: rgb(118, 115, 115);
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  max-width: 300px;
+  min-height: 150px;
+
+  & > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+.price {
+  font-weight: bold;
+  color: #2c413c;
+  margin: 5px 0;
+}
+
+.kategori {
+  font-style: italic;
+  color: #3c3c3c;
+}

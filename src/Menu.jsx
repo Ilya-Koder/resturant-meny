@@ -1,10 +1,10 @@
 import React from "react";
-import Dish from "./dish";
-import "./global.css";
+import Dish from "./Dish";
+import styles from "./Menu.module.css";
 
 function Menu({ dishes }) {
   return (
-    <div className="menu">
+    <div className={styles.menu}>
       {dishes.map((dish) => (
         <Dish key={dish.id} dish={dish} />
       ))}

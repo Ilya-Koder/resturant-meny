@@ -1,8 +1,7 @@
-// src/App.jsx
 import React from "react";
 import { meny } from "./data";
 import Menu from "./Menu";
-import styles from "./Global.modules.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
